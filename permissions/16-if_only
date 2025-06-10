@@ -1,2 +1,2 @@
 #!/bin/bash
-user=$(ls -l /tmp/hello | awk '{print $3}')if [ "$user" = "guillaume" ]; then chown vincent /tmp/hello fi
+user=$(ls -l hello | awk '{print $3}') if [ "$user" = "guillaume" ] then chown vincent hello fi
