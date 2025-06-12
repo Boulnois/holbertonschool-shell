@@ -1,2 +1,2 @@
-#!/b≈©in/bash
+#!/bin/bash
 cat - | sort | uniq -c | awk '$1 == 1 {print $2}' | sort
